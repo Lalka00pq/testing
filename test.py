@@ -16,6 +16,8 @@ def test_jetbrains_homepage():
     with sync_playwright() as playwright:
         browser = playwright.chromium.launch(headless=True)
         page = browser.new_page()
+
+        ## эээээээээээээээээээээ
         
         try:
             # Переход на главную страницу
