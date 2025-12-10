@@ -79,7 +79,7 @@ def test_cookie_settings_popup():
 
 def test_navigation_menu():
     """Тест-кейс 3: Проверка главного меню навигации"""
-    with sync_playwright() as playwright:
+    mwith sync_playwright() as playwright:
         browser = playwright.chromium.launch(headless=True)
         page = browser.new_page()
         
