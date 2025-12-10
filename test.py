@@ -10,7 +10,7 @@ import sys
 # Установка кодировки для вывода
 if sys.stdout.encoding != 'utf-8':
     sys.stdout.reconfigure(encoding='utf-8')
-
+#sdfsdf
 def test_jetbrains_homepage():
     """Тест-кейс 1: Проверка загрузки главной страницы"""
     with sync_playwright() as playwright:
