@@ -388,4 +388,3 @@ if __name__ == "__main__":
     print(f"Пройдено: {passed}/{total} тестов")
     print(f"Успешность: {(passed/total)*100:.1f}%")
     print("=" * 60)
-## TESTTESTTESTTEST
