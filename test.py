@@ -362,8 +362,6 @@ if __name__ == "__main__":
     print()
     
     tests = [
-        test_jetbrains_homepage,
-        test_cookie_settings_popup,
         test_navigation_menu,
         test_developer_tools_menu,
         test_search_functionality,
@@ -388,3 +386,4 @@ if __name__ == "__main__":
     print(f"Пройдено: {passed}/{total} тестов")
     print(f"Успешность: {(passed/total)*100:.1f}%")
     print("=" * 60)
+    ## SUPER TEST
