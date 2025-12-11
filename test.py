@@ -79,7 +79,7 @@ def test_cookie_settings_popup():
 
 def test_navigation_menu():
     """Тест-кейс 3: Проверка главного меню навигации"""
-    mwith sync_playwright() as playwright:
+    with sync_playwright() as playwright:
         browser = playwright.chromium.launch(headless=True)
         page = browser.new_page()
         
@@ -386,4 +386,4 @@ if __name__ == "__main__":
     print(f"Пройдено: {passed}/{total} тестов")
     print(f"Успешность: {(passed/total)*100:.1f}%")
     print("=" * 60)
-    ## SUPER TEST
+    ## SUPER TESTasdfasdfasdfasdfasdfasdfasdfasdfasdf
